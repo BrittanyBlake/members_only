@@ -1,0 +1,10 @@
+
+<h1>Posts</h1>
+
+<%= form_for @post do |f| %>
+    <%= f.label :title %>
+    <%= f.text_field :title, placeholer: 'title' %><br><br>
+    <%= f.label :body %>
+    <%= f.text_area :body, placeholer: 'body' %><br><br>
+    <%= f.submit 'submit' %>
+<% end %>
