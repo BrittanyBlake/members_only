@@ -1,0 +1,27 @@
+<h1>all posts<h2>
+<%@posts.each do |post|%>
+<ul>
+    <li>
+        <%=  post.title %>
+    </li>
+    <%if user_signed_in?%>
+        <li>
+            <%=  post.user.email %>
+        </li>
+    <%end %>
+    <li>
+        <%=  post.body %>
+    </li>
+    
+</ul>
+
+<% end %>
+
+<%if user_signed_in? %>
+    <%= link_to 'Sign out', destroy_user_session_path, method: :delete %>
+<% else %>
+    <%= link_to 'Sign in', new_user_session_path  %>
+<% end %>
+
+    
+
