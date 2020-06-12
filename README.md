@@ -53,7 +53,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-
+For this project we were asked to build an application that allows users to create posts called Members Only. In this application, the users are able to create posts and view the authors of the other posts while non-logged in members are only able to view the posts. 
 
 <!-- BUILD WITH -->
 ## Built With
