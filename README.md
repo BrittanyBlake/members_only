@@ -24,7 +24,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/BrittanyBlake/members_only">
-    <img src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5726/s300/icon-white-on-murple-copy.png" alt="Logo" width="80" height="80">
+    <img src="app/assets/images/rails.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Members Only</h3>
@@ -91,7 +91,7 @@ play around with different commands to see it in action
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [Microverse](https://www.microverse.org/)
+* [Odin project](https://www.theodinproject.com/)
 * [Ruby on Rails Documentation](https://api.rubyonrails.org)
 
 ## Show your support
